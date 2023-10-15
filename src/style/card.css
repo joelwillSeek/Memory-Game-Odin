@@ -3,16 +3,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    background-color: #0197F6;
     border-radius: 20px;
     color: #000;
-    margin: 1rem;
     padding: 1rem;
     transition: background-color ease-in-out 300ms;
 }
 
 .card:hover{
-    background-color: purple;
+    background-color: #d7263d;
     color: #fff;
 }
 
@@ -22,7 +21,7 @@
     border-radius: 20px;
 }
 
-.card h5{
+.card h6{
     font-size:larger;
     font-weight:lighter;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;

@@ -1,6 +1,15 @@
 :root {
-  background-color: #242424;
+  background-color: #02182B;
 
+}
+
+#root > h1{
+  color: #0197F6;
+  transition: color ease-in-out 300ms;
+}
+
+#root>h1:hover {
+ color: #d7263d;
 }
 
 #root {
