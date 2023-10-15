@@ -1,4 +1,4 @@
-import { ReactElement, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Card from "./components/Card";
 
 //style
@@ -6,7 +6,7 @@ import "./style/app.css";
 import "./style/card.css";
 
 function App() {
-  let [searchWord, setSearchWord] = useState([
+  let [searchWord] = useState([
     "Avengers",
     "Iron Man",
     "Black Panth Er",
